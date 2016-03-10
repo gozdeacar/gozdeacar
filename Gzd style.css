@@ -1,0 +1,44 @@
+.firstclass{color:#00008B;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+th,td
+    {
+        margin: 0;
+        text-align: center;
+        outline: 1px solid #e3e3e3;
+    }
+
+    td
+    {
+        padding: 5px 10px;
+    }
+
+    th
+    {
+        background: #666;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    td:hover
+    {
+        cursor: pointer;
+        background: #666;
+        color: white;
+    }
