@@ -1,0 +1,101 @@
+body{
+	background: url(C:/Users/ASUS/Desktop/gzd/resimler/back.jpg);
+	font-family: "Trebuchet Ms";
+	font-size: 0.9em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #222;
+}
+
+#sayfa{
+	width: 950px;
+	margin: 0px auto;
+	border: 1px solid #333;
+}
+
+#menu{
+	background:url(C:/Users/ASUS/Desktop/gzd/resimler/menu.jpg) repeat-x;
+	padding: 5px 5px 5px 15px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #333;
+}
+
+#menu ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+#menu ul li{
+	float:left;
+}
+
+.temizle{
+	clear:both;
+}
+
+#menu ul li a{
+	display:block;
+	line-height:28px;
+	border: 1px solid #fff;
+	background: #4b5d64;
+	color: #fff;
+	padding: 0px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+#menu ul li a:hover{
+	color:#000;
+	border: 1px solid #000;
+	background: #d6edc8;
+}
+
+#icerik{
+	background: #dee8ed;
+	padding: 5px;
+}
+
+#iceriksol{
+	width:200px;
+	float:left;
+}
+
+#solmenu{
+	list-style-type:none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#solmenu li a{
+	display:block;
+	background: url(C:/Users/ASUS/Desktop/gzd/resimler/secenek.jpg);
+	line-height:35px;
+	padding-left:35px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+
+#solmenu li a:hover{
+	background: url(C:/Users/ASUS/Desktop/gzd/resimler/secenek2.jpg);
+	color: #000;
+}
+
+.haberkutu{
+	border: 1px solid #ccc;
+	border-bottom: 2px solid #333;
+	background: #f9fafb;
+	padding: 5px;
+	margin: 0px 5px 5px 0px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+
+
